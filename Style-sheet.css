@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',serif;
+}
+
+
+h1{
+font-size: 48px;
+text-align: center;
+}
+h2{
+    font-size: 27px;
+}
+h5{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+   }
+
+
+.logo,.logo li{ 
+    font-size: 17px;
+    text-align: center;
+}
+/* herosection */
+.herosection{
+    background-color: #1E5AF9;
+    position: relative;
+    color: white;
+    position: relative;
+    padding-bottom: 10rem;
+    
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herosection h1{
+    font-size: 50px;
+}
+
+.navbarone{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 3rem;
+    align-items: center;
+    gap: 5rem;
+}
+.navbartwo{
+    display: none;
+    text-align: center;
+}
+
+.navbarone a{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: #FFFFFF;
+}
+li{
+    list-style: none;
+
+}
+
+
+.herimg{
+   
+    top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+}
+.applink{
+    padding-top: 15rem;
+   
+}
+
+.applinks{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.applinks li{
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+.applinks a{
+    color: #FFFFFF;
+}
+
+.aboutus{
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.aboutus a{
+    color: #FFFFFF;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+ p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 12px;
+ }
+
+.two-one,.two-two,.two-three{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+}
+.ourclients{
+    text-align: center;
+}
+.testimonials{
+    text-align: center;
+}
+.dowload{
+    display: flex;
+    gap: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.faq{
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:1rem;
+    
+}
+
+.details{
+    padding: 0.5rem 1rem;
+    /* background-color: #BBBBBB; */
+    border: 1px solid #AAAAAA;
+}
+
+details>summary,details >p{
+    padding: 1rem;
+    width: 40rem;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+.dowload h1{
+    text-align: left;
+}
+.dowload ul{
+    justify-content: start;
+}
+
+
+.subscribe{
+    background-color: #1E5AF9;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding:3rem 5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    border-radius: 1rem;
+}
+
+.subscribe a{
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+}
+
+
+.seceight{
+    display: flex;
+    justify-content: space-evenly;
+    margin:4rem 0 0 0 ;
+    padding: 0;
+    
+  } 
+  .seceight h4{
+    font-size: 18px;
+  }
+  .seceight h6{
+    font-size: 10px;
+    font:oblique;
+    font-weight: 300;
+    padding: 0.5rem 0;
+  }
+  .image{
+    display: flex;
+    gap:5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+form{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+button {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    background: none;
+    font-weight: 600;
+   
+}
+
+input{
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #ECF1F1;
+    border: none;
+}
+
+
+/* responsive fr mobile */
+
+  @media screen and (max-width:425px) {
+
+    .navbarone{
+        display: none;
+    }
+
+    h1{
+        font-size: 25px;
+        padding-top: 1rem;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    h5{
+        font-size: 6px;
+    }
+    p{
+        font-size: 5.5px;
+        text-align: center;
+        padding: 1rem;
+    }
+    .herosection{
+        padding-bottom: 5rem;
+    }
+    .herosection h1 {
+        font-size: 30px;
+    }
+   .herimg,img{
+        width: 50%;
+        height: auto;
+        gap: 1rem;
+        top:12rem
+   
+      
+    }
+    .navbartwo{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    .logo{
+       text-align: center;
+    }
+    
+    .centre p{
+        padding:3rem 0;
+    }
+
+.applink{
+    padding-top: 8rem;
+}
+    .applink img{
+
+    
+        width: 20%;
+        height: auto;
+    }
+    a{
+        font-size: 8px;;
+    }
+
+.two-one,.two-three{
+    flex-direction: column-reverse;
+    gap :2rem
+}
+.two-two{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.two-one div,.two-two div,.two-three div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.aboutus{
+    padding-top: 2rem;
+}
+
+
+.ourclients,.testimonials{
+    padding: 0 3rem;
+}
+
+.image{
+    margin: 0;
+    gap: 1rem;
+}
+summary{
+    font-size: 6px;
+}
+details>summary{
+    padding: 0;
+    width: auto;
+}
+details >p{
+    padding: 0.5rem;
+    width: auto;
+}
+.faq{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0rem;
+}
+
+.details{
+    padding: 0.5rem;
+}
+.dowload{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.applinks img{
+    width: 20%;
+    height: auto;
+}
+
+ul{
+    gap: 1rem;
+}
+
+.subscribe {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+  }
+
+
